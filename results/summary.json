@@ -1,0 +1,45 @@
+{
+ "raw_lines": 541909,
+ "clean_lines": 397884,
+ "buyers": 4338,
+ "orders": 18532,
+ "one_time_buyer_share": 0.344,
+ "repeat_buyer_rev_share": 0.931,
+ "new_cohort_m1_retention": 0.19,
+ "new_cohort_m3_retention": 0.228,
+ "outcome_window_days": 100,
+ "base_at_cut": 3317,
+ "dormant_n": 1394,
+ "dormant_share": 0.42,
+ "dormant_past_rev_share": 0.162,
+ "dormant_organic_return_rate": 0.424,
+ "propensity_cv_auc": 0.634,
+ "recency_rule_auc": 0.583,
+ "bands": [
+  {
+   "band": "low",
+   "n": 279,
+   "return_rate": 0.308,
+   "avg_past_spend": 739.964
+  },
+  {
+   "band": "mid",
+   "n": 836,
+   "return_rate": 0.394,
+   "avg_past_spend": 414.49
+  },
+  {
+   "band": "high",
+   "n": 279,
+   "return_rate": 0.631,
+   "avg_past_spend": 1067.739
+  }
+ ],
+ "n_per_arm_5pp": 1553,
+ "n_per_arm_10pp": 391,
+ "holdout_30pct_n": 418,
+ "top5_rev_share": 0.503,
+ "top20_rev_share": 0.746,
+ "reward_cost_share_of_rev": 0.031,
+ "breakeven_spend_lift_paid_tiers": 0.112
+}
